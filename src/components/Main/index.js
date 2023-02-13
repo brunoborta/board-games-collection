@@ -13,7 +13,7 @@ function Main() {
       console.log(getInfoXML(response.data));
     }
     loadCatan();
-  });
+  }, []);
   return <h1>Bruno Borta&apos;s amazing Collection</h1>;
 }
 
