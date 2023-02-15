@@ -7,17 +7,27 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    body {
+        background-color: var(--background-color);
+    }
+
     a {
       text-decoration: none;
     }
     
     :root {
-        --error-bg: #CB3127;
-        --error-text: #F1EFEA;
-        --warning-bg: #fefce8;
-        --warning-text: #a16107;
-        --success-bg: #28a745;
-        --disabled-bg: #C4C4C4;
-        --disabled-text: #6F6F6F;
+        --background-color: #1e1d32;
+        --background-box-dark: #2c2856;
+        --background-box-light: #412664;
+        --orange: #f27984;
+        --red: #f54178;
+        --red-dark: #551e65;
+        --text: #eef0f9;
+        --blue-light: #5db1f5;
+        --blue: #102bb8;
+        --pink: #ec32e3;
+        --yellow: #f9b677;
+        --purple: #9c51f6;
+        --green: #24d5a1;
     }
 `;
